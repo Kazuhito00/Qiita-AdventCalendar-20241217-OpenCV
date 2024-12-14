@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js"></script>
+    </head>
+    <body>
+        <div id="text"></div>
+
+        <script type="text/javascript">
+            async function main() {
+                let pyodide = await loadPyodide();
+                const code = `
+                    from js import document 
+                    from datetime import datetime
+                    now = datetime.now()
+                    document.getElementById('text').innerHTML = "Hello World: " + now.strftime("%Y/%m/%d %H:%M:%S")
+                `;
+                pyodide.runPython(code);
+            };
+
+            main();
+        </script>
+    </body>
+</html>

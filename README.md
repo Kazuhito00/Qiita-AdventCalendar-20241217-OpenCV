@@ -12,11 +12,13 @@ Qiita OpenCV アドベントカレンダー(2024年12月17日)の投稿「[PyScr
 ![01](https://github.com/user-attachments/assets/5fb67365-7312-4b27-a537-fc0293f18ad0)
 
 デモURL：https://kazuhito00.github.io/Qiita-AdventCalendar-20241217-OpenCV/02.yolox/
+参考URL：https://github.com/Megvii-BaseDetection/YOLOX
 
 # 03.yolov9wholebody25
 ![02](https://github.com/user-attachments/assets/fa3aa16a-51c6-4de3-9406-a6bb94bff513)
 
 デモURL：https://kazuhito00.github.io/Qiita-AdventCalendar-20241217-OpenCV/03.yolov9wholebody25/
+参考URL：https://github.com/PINTO0309/PINTO_model_zoo/tree/main/459_YOLOv9-Wholebody25
 
 # Authors
 高橋かずひと(https://twitter.com/KzhtTkhs)
